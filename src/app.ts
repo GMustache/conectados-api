@@ -23,4 +23,4 @@ server.setErrorConfig((app) => {
 }).setConfig((app) => {
     const logger = morgan('combined');
     app.use(logger);
-}).build().listen(3000, 'localhost',() => `Server on!!`);
+}).build().listen(3001, 'localhost',() => `Server on!!`);
